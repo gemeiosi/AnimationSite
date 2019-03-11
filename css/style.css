@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+header nav:hover{
+    opacity: 1;
+}
+header logo svg{
+    width: 15%;
+    height: 15%;
+}
+
+/* Start of Logo Animation */
+.st0{
+    animation: come  2s ease;
+}
+@keyframes come{
+    0% {
+        transform: translate(500px,0) rotate(500deg);
+    }
+    100%{
+        transform: translate(0)
+    }
+    75%{
+        transform: translate(500px,0) rotate(500deg);
+    }
+    25%{
+        transform: translate(0)
+    }
+}
+
+/* End of Animation */
+
+/*Start Header Css*/
+#headerimg{
+    width: 100%;
+    height: 99vh;
+}
+header nav{
+    opacity: 0.6;
+    background-color: slategray;
+}
+.sticky {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+header nav ul{
+    margin-top: 3em;
+    height: 3em;
+    float: right;
+    line-height: 3em;
+}
+header nav li{
+    list-style-type: none;
+    margin-left: 25px;
+    float: left;
+}
+header nav li{
+    height: 10px;
+    color: white;
+    line-height: 10px;
+}
+header nav li{
+    font-size: 1.5em;
+}
+header nav li:hover{
+    cursor: pointer;
+    color: #ff8989;
+}
+
+/*End Header Css*/
+
+/*Start Section Css*/
+section #title{
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+}
+section #description{
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ff8989;
+}
+section #description span{
+    color: #8657f3;
+}
+#scrollToBottom{
+    padding:10px; 
+    text-align:center; 
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position:fixed;
+    bottom: 20px;
+    right:20px;
+}
+#scrollToTop{
+    z-index: 1;
+    padding:10px; 
+    text-align:center; 
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position:fixed;
+    bottom: 20px;
+    right:20px;
+    display: none;
+}
+#bachelor{
+    left: -1400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#bachelor .left{
+    position: relative;
+    left: -1400px;
+}
+#bachelor #right{
+    position: relative;
+    right: -1400px;
+}
+#bachelor span{
+    color: red;
+}
+#campustitle{
+    text-align: center;
+    margin-bottom: 180px;
+    color: #8657f3;
+}
+#parallax {/*----------------PARALLAX No1-----*/
+    width: 100%;
+    background-image: url("../images/futurecampus.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 180%;
+    left: 0;
+}
+#parallax2{/*----------------PARALLAX No2-------*/
+    margin-top: 800px;
+    height:1200px;
+    background-image: url("../images/futurecampus2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Json get Css */
+#program h3{
+    text-align: center;
+}
+/* Faq Css */
+.accordion{
+    cursor: pointer;
+    margin-top: 80px; 
+}
+.question{
+    background-color:black;
+    padding: 20px;
+    color: white; 
+}
+.answer{
+    padding: 20px;
+    display: none;
+}
+#fitvid0{
+    text-align: center;
+   width: 800px;
+    height: 300px;
+}
+/*Contact Form and Map */
+#contactus{
+    margin-top: 60px;
+}
+#contactus h3{
+    margin-top: 60px;
+    text-align: center;
+}
+iframe{
+    margin-left:50px;
+}
+form{
+    width:500px;
+    margin-right:20px;
+    margin-bottom: 20px;
+    float: right;
+}
+input{
+    width: 500px;
+    height: 30px;
+    margin-top:10px;
+    font-size:15px;
+}
+textarea{
+    width:500px;
+    margin-top:10px;
+
+}
+#send{
+    width:500px;
+    height: 30px;
+    color: #8657f3;
+    background-color:white;;
+    font-size:20px;
+}
+button:focus {outline:0;}
+input:focus{outline: 0;}
+
+#contact{
+    text-align: center;
+    color:white;
+    margin-bottom: 50px;
+    font-size:45px;
+}
+/************************  Social & Footer  Css  ***************************/
+social{
+    margin-top: 40px;
+    clear: both;
+    display: flex;
+    justify-content: center; 
+    background-color: #353535;
+}
+social img:hover{
+    opacity: 0.3;
+}
+social img{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+footer{
+    background-color: #252525;
+}
+footer h5{
+    padding: 40px;
+    color: #cccccc;
+}
+footer h4{
+    padding: 40px;
+    text-align: center;
+    color: #5a5959a8;
+}
+footer h4 span{
+    border-bottom: 2px solid white;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+   
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    
+}
